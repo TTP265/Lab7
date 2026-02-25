@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #e6e6e6;
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    background: #ffffff;
+}
+
+/* LEFT */
+.left {
+    width: 180px;
+    background: #efefef;
+    padding: 15px;
+}
+
+.logo-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 6px 15px;
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    color: #0000ee;
+    text-decoration: none;
+    margin: 6px 0;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.lang {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.lang a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+/* CENTER */
+.center {
+    flex: 1;
+    padding: 20px 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0;
+}
+
+.download {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.download th {
+    background: #bfe0b7;
+    border: 1px solid #999;
+    padding: 6px;
+    text-align: left;
+}
+
+.download td {
+    border: 1px solid #999;
+    padding: 6px;
+}
+
+.center-title {
+    text-align: center;
+}
+
+/* RIGHT */
+.right {
+    width: 220px;
+    background: #efefef;
+    padding: 15px;
+}
+
+.box {
+    margin-bottom: 20px;
+    border: 1px solid #999;
+}
+
+.box-header {
+    background: #7d7fd1;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-body {
+    background: #f4f4f4;
+    padding: 6px;
+}
+
+.box-body a {
+    color: #0000ee;
+    text-decoration: none;
+}
